@@ -23,17 +23,17 @@ Now there will be two ways to run this scraper.
 	B. directly by executing the python script
 	
 ---------------------------------------------------------------------------------------------------------------------------------    
-3.A  Uncomment the last 3 lines in 'StocktwitSscraper/spiders/twitscrawler.py'
+3.A   Uncomment the last 3 lines in 'StocktwitSscraper/spiders/twitscrawler.py'
 
-4.A  Make the root folder of the project to your current folder (via 'cd' command)
+4.A   Make the root folder of the project to your current folder (via 'cd' command)
 
-5.A  Run the following code:
-     $ scrapy crawl twitscraper -a query="examplestock"
+5.A   Run the following code:
+      $ scrapy crawl twitscraper -a query="examplestock"
     
 ---------------------------------------------------------------------------------------------------------------------------------    
-3.B In 'StocktwitSscraper/spiders/twitscrawler.py' in the last but one line, replace 'examplestock' with any list of symbols
+3.B   In 'StocktwitSscraper/spiders/twitscrawler.py' in the last but one line, replace 'examplestock' with any list of symbols
 
-4.B run 'StocktwitSscraper/spiders/twitscrawler.py' 
+4.B   Run 'StocktwitSscraper/spiders/twitscrawler.py' 
 
 ---------------------------------------------------------------------------------------------------------------------------------    
 
