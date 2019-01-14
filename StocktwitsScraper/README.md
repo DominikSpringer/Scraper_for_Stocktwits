@@ -1,7 +1,7 @@
 # Installation 
 1.  To run this program you need Scrapy (http://scrapy.org/). 
-    Install it for example by running the following code in your command-line
-    $ pip install scrapy
+    Install it for example by running the following code in your command-line /
+    $ pip install scrapy \
 2.  Now download the python code for the scraper:
     $ cd /directory_to_install_scraper_to
     $ git clone https://github.com/DominikSpringer/Scraper_for_Stocktwits.git
