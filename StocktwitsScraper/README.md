@@ -1,7 +1,7 @@
 # Installation 
 1.  To run this program you need Scrapy (http://scrapy.org/). 
-    Install it for example by running the following code in your command-line /
-    $ pip install scrapy \
+    Install it for example by running the following code in your command-line 
+    $ pip install scrapy 
 2.  Now download the python code for the scraper:
     $ cd /directory_to_install_scraper_to
     $ git clone https://github.com/DominikSpringer/Scraper_for_Stocktwits.git
@@ -28,7 +28,7 @@ Now there will be two ways to run this scraper.
 4.A  Make the root folder of the project to your current folder (via 'cd' command)
 
 5.A  Run the following code:
-    $ scrapy crawl twitscraper -a query="examplestock"
+     $ scrapy crawl twitscraper -a query="examplestock"
     
 ---------------------------------------------------------------------------------------------------------------------------------    
 3.B In 'StocktwitSscraper/spiders/twitscrawler.py' in the last but one line, replace 'examplestock' with a list of symbols you 	    	want to scrape data for.
