@@ -31,7 +31,7 @@ Now there will be two ways to run this scraper.
      $ scrapy crawl twitscraper -a query="examplestock"
     
 ---------------------------------------------------------------------------------------------------------------------------------    
-3.B In 'StocktwitSscraper/spiders/twitscrawler.py' in the last but one line, replace 'examplestock' with a list of symbols you 	    	want to scrape data for.
+3.B In 'StocktwitSscraper/spiders/twitscrawler.py' in the last but one line, replace 'examplestock' with any list of symbols
 
 4.B run 'StocktwitSscraper/spiders/twitscrawler.py' 
 
